@@ -206,13 +206,13 @@ const LoginPage = () => {
 									</button>
 								)}
 
-								<div className="flex-none mb-3">
+								{/* <div className="flex-none mb-3">
 									<button className="text-blue-600 hover:text-blue-700">
 										Forgot password?
 									</button>
-								</div>
+								</div> */}
 
-								<hr />
+								<hr className="mt-3" />
 
 								<div className="flex-none">
 									<button
