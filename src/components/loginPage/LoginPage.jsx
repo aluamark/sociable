@@ -146,16 +146,16 @@ const LoginPage = () => {
 	};
 
 	return (
-		<div className="bg-neutral-100">
+		<div>
 			<ToastContainer />
-			<div className="h-screen flex flex-col md:flex-row justify-center items-center max-w-screen-xl mx-auto px-10">
+			<div className="h-screen flex flex-col md:flex-row justify-center items-center max-w-screen-xl mx-auto">
 				<div className="p-10 md:p-0 md:pr-10 text-center md:text-left max-w-md">
 					<h1 className="text-blue-600 text-5xl font-bold pb-5">sociable</h1>
 					<p className="text-2xl">
 						Connect with friends and the world around you on Sociable.
 					</p>
 				</div>
-				<div className="border bg-white rounded-xl shadow-xl p-5">
+				<div className="border bg-white rounded-xl shadow-xl p-5 w-11/12 md:w-96">
 					<Formik
 						onSubmit={handleFormSubmit}
 						initialValues={initialValuesLogin}
@@ -169,7 +169,7 @@ const LoginPage = () => {
 							resetForm,
 						}) => (
 							<form
-								className="flex flex-col text-center w-80 md:w-96"
+								className="flex flex-col text-center w-full"
 								onSubmit={handleSubmit}
 							>
 								<input
@@ -214,7 +214,7 @@ const LoginPage = () => {
 
 								<hr className="mt-3" />
 
-								<div className="flex-none">
+								<div className="">
 									<button
 										type="button"
 										onClick={() => {

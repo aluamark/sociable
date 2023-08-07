@@ -10,7 +10,7 @@ const App = () => {
 	const user = useSelector((state) => state.user);
 
 	return (
-		<div className="min-h-screen bg-neutral-100 dark:bg-zinc-900">
+		<div className="min-h-screen dark:bg-zinc-900">
 			{user && <Navbar />}
 			<Routes>
 				{user ? (
