@@ -148,7 +148,7 @@ const LoginPage = () => {
 	return (
 		<div>
 			<ToastContainer />
-			<div className="h-screen flex flex-col md:flex-row justify-center items-center max-w-screen-xl mx-auto">
+			<div className="h-screen flex flex-col md:flex-row md:justify-center items-center max-w-screen-xl mx-auto">
 				<div className="p-10 md:p-0 md:pr-10 text-center md:text-left max-w-md">
 					<h1 className="text-blue-600 text-5xl font-bold pb-5">sociable</h1>
 					<p className="text-2xl">
